@@ -55,4 +55,13 @@ function createBoard() {
   }
 }
 
+function resetBoard() {
+    let hand = document.querySelectorAll('img');
+    for (let i = 0; i < hand.length; i++) {
+      hand[i].remove();
+    }
+    cardsInPlay = [];
+    createBoard();
+}
+
 createBoard();

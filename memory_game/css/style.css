@@ -66,6 +66,20 @@ img {
   margin: 40px 8px;
 }
 
+button {
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+  background: #00a6b3;
+}
+
+button:hover {
+  border-color: #f15b31;
+}
+
 footer {
   text-transform: uppercase;
   padding: 0px 20px;
